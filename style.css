@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans&family=Rambla&display=swap');
 
-/* 
-font-family: 'Josefin Sans', sans-serif;
- */
 
 html{
     scroll-behavior: smooth;
@@ -20,4 +17,82 @@ h2, h3 {
 }
 li {
     list-style-type: none;
+}
+
+/* HEADER */
+
+.navbar {
+    background-color: #fAfAfA;
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7s;
+}
+.navbar-nav {
+    width: 80% !important;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+header {
+    text-align: center;
+    height: 100vh;
+    background: url(./media/header.jpg) no-repeat 50% 50% cover;
+}
+h1 {
+    padding: 90px 0 10px 0;
+    font-family: serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4.3em;
+    text-transform: uppercase;
+}
+#line {
+    height: 1px;
+    background-color: #B3ACA7;
+    width: 25%;
+    margin: 0 auto;
+}
+h2 {
+    padding: 20px 0 50px 0;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.presentation {
+    height: 240px;
+    margin-top: 20px;
+}
+.infos{
+    border:solid 1px #B3ACA7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.photo {
+    border:solid 1px #B3ACA7;
+    position: relative;
+}
+.photo img {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    max-width: 90%;
+    border-radius: 3px;
+    box-shadow: 0 0 4px  #010101;
+}
+
+header .button {
+    margin-top: 45px;
+}
+header .button a {
+    padding: 20px 80px;
+    border: 1px solid #B3ACA7;
+    width: 300px;
+}
+header .button:hover a {
+    background: #B3ACA7;
+    color: #E2D3DB;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
