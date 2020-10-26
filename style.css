@@ -593,3 +593,16 @@ input:hover::placeholder , textarea:hover::placeholder, input:hover:focus::place
     padding: 15px 15px 8px 15px;
     box-shadow: 0 0 5px #28a745;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px){
+    .infos h5, .type {
+        font-size: 0.9em;
+    }
+    #langages {
+        margin-left: 1%;
+    }
+    #formation {
+        margin-right: 1%;
+    }
+}
