@@ -485,7 +485,7 @@ footer{
     padding: 160px 50px 5 50px;
 }
 footer h3 {
-    padding: 0 0 60px 0;
+    padding: 150px 0 60px 0;
     font-size: 2.5em;
 }
 .footer-icons {
@@ -573,4 +573,23 @@ input:hover::placeholder , textarea:hover::placeholder, input:hover:focus::place
     border:solid 1px #B3ACA7;
     padding: 20px 75px;
     margin: 14px 0 -20px 0;
+}
+.form-container h4{
+    font-size: 1.2em;
+}
+#error_message {
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px 15px 8px 15px;
+    box-shadow: 0 0 5px #dc3545;
+}
+#success_message {
+    color: #28a745;
+    border: 1px solid #28a745;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px 15px 8px 15px;
+    box-shadow: 0 0 5px #28a745;
 }
