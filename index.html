@@ -299,55 +299,31 @@
         <section id="other-skills">
             <h3>Autres compétences</h3>
             <div class="cloud">
-                <div class="aos-item"
-                    data-aos="fade-zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="3000">
-                <span style="color: red; margin-left:-90%;">github</span>
+                <div class="aos-item" data-aos="fade-zoom-in" data-aos-delay="500" data-aos-duration="3000">
+                    <span style="color: red; margin-left:-90%;">github</span>
                 </div>
-                <div class="aos-item"
-                    data-aos="fade-zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="1800">
-                <span style="color: indigo; margin-left:50%;">méthode agile</span>
+                <div class="aos-item" data-aos="fade-zoom-in" data-aos-delay="500" data-aos-duration="1800">
+                    <span style="color: indigo; margin-left:50%;">méthode agile</span>
                 </div>
-            
-                <div class="aos-item"
-                    data-aos="fade-zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="2800">
-                <span style="color: maroon; margin-left:-20%;">anglais</span>
+
+                <div class="aos-item" data-aos="fade-zoom-in" data-aos-delay="500" data-aos-duration="2800">
+                    <span style="color: maroon; margin-left:-20%;">anglais</span>
                 </div>
-            
-                <div class="aos-item"
-                    data-aos="fade-zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="2500">
-                <span style="color: mediumturquoise; margin-left:-70%;">redux</span>
+
+                <div class="aos-item" data-aos="fade-zoom-in" data-aos-delay="500" data-aos-duration="2500">
+                    <span style="color: mediumturquoise; margin-left:-70%;">redux</span>
                 </div>
-                <div class="aos-item"
-                    data-aos="fade-zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="2100">
-                <span style="color: orange; margin-left:40%;">webpack</span>
+                <div class="aos-item" data-aos="fade-zoom-in" data-aos-delay="500" data-aos-duration="2100">
+                    <span style="color: orange; margin-left:40%;">webpack</span>
                 </div>
-                <div class="aos-item"
-                    data-aos="fade-zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="2400">
-                <span style="color: pink; margin-left:-10%;">photoshop</span>
+                <div class="aos-item" data-aos="fade-zoom-in" data-aos-delay="500" data-aos-duration="2400">
+                    <span style="color: pink; margin-left:-10%;">photoshop</span>
                 </div>
-                <div class="aos-item"
-                    data-aos="fade-zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="2800">
-                <span style="color: navy; margin-left:-80%;">seo</span>
+                <div class="aos-item" data-aos="fade-zoom-in" data-aos-delay="500" data-aos-duration="2800">
+                    <span style="color: navy; margin-left:-80%;">seo</span>
                 </div>
-                <div class="aos-item"
-                    data-aos="fade-zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="1000">
-                <span style="color: sandybrown; margin-left:70%;">UX</span>
+                <div class="aos-item" data-aos="fade-zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                    <span style="color: sandybrown; margin-left:70%;">UX</span>
                 </div>
             </div>
         </section>
@@ -429,6 +405,30 @@
                 </a>
             </div>
         </div>
+        <div class="form-container">
+            <form id="reused_form">
+                <div>
+                    <input id="name" type="text" name="name" placeholder="Nom" required class="validate">
+                </div>
+                <div>
+                    <input id="email" type="email" name="email" placeholder="E-mail" required class="validate">
+                </div>
+                <div>
+                    <textarea id="message" name="message" placeholder="Ici votre message..."
+                        class="validate"></textarea>
+                </div>
+                <div>
+                    <button class="form-button" type="submit">Envoyer</button>
+                </div>
+            </form>
+
+            <div id="error_message" style="width:100%; height:100%; display:none; ">
+                <h4>Une erreur s'est produite, veuillez rééssayer</h4>
+            </div>
+            <div id="success_message" style="width:100%; height:100%; display:none; ">
+                <h4>Message envoyé !</h4>
+            </div>
+        </div>
         <div class="arrow">
             <a href="#">
                 <i class="fa fa-sort-up"></i>
@@ -440,6 +440,7 @@
 <script type="text/javascript" src="./assets/js/typed.min.js"></script>
 <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="./assets/js/aos.js"></script>
+<script src="./assets/form/form.js"></script>
 <script type="text/javascript" src="./script.js"></script>
 
 </html>
