@@ -606,3 +606,45 @@ input:hover::placeholder , textarea:hover::placeholder, input:hover:focus::place
         margin-right: 1%;
     }
 }
+@media screen and (max-width: 770px){
+    .navbar {
+        display: none!important;
+    }
+    h1, h2{
+        font-size: 2em;
+    }
+    #langages {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #formation {
+        width: 80%;
+        margin: 500px 0 0 10%;
+        float: none;
+        display: block;
+    }
+    .counter-value {
+        font-size: 1em;
+    }
+    .data-span{
+        font-size: .8em;
+    }
+    #parcours {
+        margin-top: -400px;
+    }
+    .legende p{
+        display: none;
+    }
+    #other-skills h3, #hobbies h3, footer h3 {
+        font-size: 2em;
+    }
+    .cloud {
+        font-size: 1.5em;
+    }
+    .flip-box-back p{
+        padding: 10px 0px;
+    }
+    input, textarea {
+        width: 300px;
+    }
+}
